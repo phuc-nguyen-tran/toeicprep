@@ -1,9 +1,9 @@
 ### TOEICPREP
 
 ## How to run
-# 1. Client side
+### 1. Client side
 - Go to the client folder and type **npm install** in the command. After that, run **npm start**.
-# 2. Server side
+### 2. Server side
 - Go to the server folder and type **npm install**. After that, type **nodemon server.js**
 
 After that, you should be all set. Please note that all your progress will go to my MongoDB database, so feel free to create one 

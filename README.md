@@ -1,4 +1,13 @@
-### Toeicprep
+### TOEICPREP
+
+## How to run
+# 1. Client side
+- Go to the client folder and type **npm install** in the command. After that, run **npm start**.
+# 2. Server side
+- Go to the server folder and type **npm install**. After that, type **nodemon server.js**
+
+After that, you should be all set. Please note that all your progress will go to my MongoDB database, so feel free to create one 
+on your own and change the **.env** file!
 
 ## Idea
 I got this idea upon my return to Vietnam, where I noticed my dad grinding for his TOEIC exam but to no avail. I decided
@@ -24,6 +33,9 @@ easier and shorter than the conventional "fetch" method
 the JWT Token and verify it
 - Some of my API endpoints only works after the user is authenticated. At first, I just called Axios without any validation on it, so
 of course it didn't work. Solution: Add the header object in the param and pass the JWT Token collected from LocalStorage & compare
+- At first, git didn't push my server folder :( to the repo. I found out that when I created the client side using **create-react-app**,
+it automatically created a git repo. So that, I go to the settings, delete the .git file from being excluded, deleted that file, and push it
+to a new repo! That's why you can tell this repo has only 1 commit lol.
 
 ## Future developments
 - I haven't deployed this yet as it can be taken down in the future (Heroku demands fee now :(). I plan to deploy into Docker and Kubernetes
